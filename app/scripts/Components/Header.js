@@ -7,8 +7,8 @@ export default React.createClass({
   render() {
     return (
       <div className="header">
-        <Link to = "/home">
-        <h1 className="app-title">BFProductions</h1>
+        <Link to = "/">
+        <h1 className="app-title">Tulip & Ivy</h1>
         </Link>
         <HeaderNav />
         <div className="hero">
