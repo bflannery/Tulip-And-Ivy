@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.footer {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    text-align: right;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3.25rem;
+    margin-top: 9rem;
+    padding: .5rem;
+    border-top: 3px solid darkgray;
+
+  a {
+    text-decoration: none;
+    color: #393845;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #393845;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #393845;
+    text-decoration: none;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-github:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+}
+
+.copyright {
+  display: inline-block;
+  float: left;
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+  color: #393845;
+  font-size: 1rem;
+}
+
+.footer-nav {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1rem;
+
+}
