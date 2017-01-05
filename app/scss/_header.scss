@@ -1,17 +1,9 @@
-.header {
-  background: white;
-  color: $color-lightgreen;
-  border-bottom: 3px solid $color-gray;
-  padding: .2rem;
-
-}
-
 .nav-container {
-  display: inline-block;
-  position: absolute;
-  top: 24rem;
-  left: 0.5rem;
   font-size:1.7rem;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+  padding: 0;
 }
 
 .nav-list {
@@ -37,12 +29,12 @@ color: $color-green;
 @media(min-width: 600px) {
 
   .nav-container {
-    display: inline-block;
-    float: right;
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: .7rem;
-}
+    font-size:1.7rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 0;
+  }
     .nav-list {
       display: inline-block;
       background: transparent;
@@ -58,11 +50,11 @@ color: $color-green;
 @media(min-width: 850px) {
 
   .nav-container {
-    display: inline-block;
-    top: 26rem;
-    left: 30.5rem;
-    position: absolute;
-    font-size: .7rem;
+    font-size:1.7rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 0;
   }
   .nav-list {
     display: inline-block;

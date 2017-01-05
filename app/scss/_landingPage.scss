@@ -1,22 +1,23 @@
 .landing-page-container {
-  background: url('../assets/images/tulipivylogo.jpg') no-repeat;
-  background-size: 100% 50%;
-  background-position: center;
-  height: 500px;
   display: inline-block;
   width: 100%;
 }
-
 .main-container{
   text-align: center;
+}
+
+.landing-logo {
+  display: block;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 85%;
 }
 
 
 @media(min-width:600px) {
 .landing-page-container{
-  background-size: 81% 70%;
-  background-position: center;
-  height: 500px;
   display: inline-block;
   width: 100%;
   }
@@ -25,10 +26,6 @@
 @media(min-width: 850px){
 
 .landing-page-container {
-  background: url('../assets/images/tulipivylogo.jpg') no-repeat;
-  background-size: 65% 83%;
-  background-position: center;
-  height: 500px;
   display: inline-block;
   width: 100%;
   }
