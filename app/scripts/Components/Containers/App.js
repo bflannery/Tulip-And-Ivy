@@ -7,7 +7,6 @@ export default React.createClass({
   render() {
     return (
       <div className="app-container">
-        <Header />
           {this.props.children}
         <Footer />
       </div>

@@ -1,0 +1,35 @@
+.landing-page-container {
+  background: url('../assets/images/tulipivylogo.jpg') no-repeat;
+  background-size: 100% 50%;
+  background-position: center;
+  height: 500px;
+  display: inline-block;
+  width: 100%;
+}
+
+.main-container{
+  text-align: center;
+}
+
+
+@media(min-width:600px) {
+.landing-page-container{
+  background-size: 81% 70%;
+  background-position: center;
+  height: 500px;
+  display: inline-block;
+  width: 100%;
+  }
+}
+
+@media(min-width: 850px){
+
+.landing-page-container {
+  background: url('../assets/images/tulipivylogo.jpg') no-repeat;
+  background-size: 65% 83%;
+  background-position: center;
+  height: 500px;
+  display: inline-block;
+  width: 100%;
+  }
+}
