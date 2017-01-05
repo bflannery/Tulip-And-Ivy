@@ -1,71 +1,71 @@
 .nav-container {
-  font-size:1.7rem;
   display: block;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 
 .nav-list {
   display: inline-block;
   background: transparent;
-  margin: 0rem 1rem;
+  font-size: 2rem;
 }
 
 a {
+  padding: 1rem;
   text-decoration: none;
 }
 
 a:visited {
-color: $color-green;
+  color: $color-green;
 }
 
-.nav-list:hover {
-  border: 2px solid $color-salmon;
-  color: $color-gray;
+.nav-list a:hover {
+  border:2px solid $color-salmon;
+  color: $color-green;
 }
 
 
 @media(min-width: 600px) {
 
   .nav-container {
-    font-size:1.7rem;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
   }
-    .nav-list {
-      display: inline-block;
-      background: transparent;
-      padding: .5rem 1rem;
-      font-size: 1.5rem;
-    }
-    .nav-list:hover {
-      border:2px solid $color-gold;
-      color: $color-gray;
-    }
+
+  .nav-list {
+    display: inline-block;
+    background: transparent;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+  }
+
+  .nav-list a:hover {
+    border:2px solid $color-salmon;
+      color: $color-green;
+  }
 }
 
 @media(min-width: 850px) {
 
   .nav-container {
-    font-size:1.7rem;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
   }
+
   .nav-list {
     display: inline-block;
     background: transparent;
-    padding: 0.5rem 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
-  .nav-list:hover {
+  .nav-list a:hover {
     border:2px solid $color-salmon;
-    color: $color-gray;
+      color: $color-green;
   }
 
 }

@@ -4,6 +4,7 @@ export default React.createClass({
   render() {
     return (
       <nav className="footer-nav">
+        <span> Share Flowers With Us </span>
         <ul className="social-icons">
           <li><a href="https://github.com/bflannery" className="social-icon"> <i className="fa fa-github"></i></a></li>
           <li><a href="https://twitter.com/flanst1gram" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
