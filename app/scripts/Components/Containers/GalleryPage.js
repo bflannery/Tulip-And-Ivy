@@ -3,7 +3,7 @@ import Gallery from 'react-photo-gallery';
 import Header from '../Header';
 import Footer from '../Footer';
 
-export default class Sample extends React.Component {
+export default React.createClass({
     render() {
     return (
         <div className="gallery-page">
@@ -15,7 +15,7 @@ export default class Sample extends React.Component {
         </div>
     );
     }
-}
+});
 
 const FLOWERSET_1 = [
   {

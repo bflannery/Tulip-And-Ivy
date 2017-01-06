@@ -4,7 +4,6 @@
     font-family: 'Lato', sans-serif;
     background-color: white;
     -webkit-font-smoothing: antialiased;
-    text-align: right;
     right: 0;
     bottom: 0;
     left: 0;
@@ -21,12 +20,7 @@ p > a:hover{
     color: #d9d9d9;
     text-decoration:  underline;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin:  1% 0 1% 0;
 }
 ._12 {
@@ -113,6 +107,9 @@ ul.social-icons {
 
 }
 @media(min-width: 600px) {
+  .footer {
+    text-align:right;
+  }
 .copyright {
   display: inline-block;
   float: left;
@@ -145,5 +142,11 @@ ul.social-icons {
   margin-right: 1rem;
   font-size: 1rem;
 
+}
+.footer {
+  text-align:right;
+    span {
+      margin-right: 2rem;
+    }
 }
 }
