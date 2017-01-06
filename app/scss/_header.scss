@@ -36,7 +36,7 @@ a:visited {
 }
 
 
-@media(min-width: 639px) {
+@media(min-width: 650px) {
 
   .header-logo {
     float: left;
@@ -48,6 +48,7 @@ a:visited {
     display: inline-block;
     float: right;
     margin-top: 2.1rem;
+    margin-right: 1rem;
     font-size: 1.5rem;
   }
 
@@ -63,12 +64,13 @@ a:visited {
   }
 }
 
-@media(min-width: 1050px) {
+@media(min-width: 850px) {
 
   .nav-container {
     display: inline-block;
     float: right;
-    font-size: .7rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
   }
 
   .nav-list {
