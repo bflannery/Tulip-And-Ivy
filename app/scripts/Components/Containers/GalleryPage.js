@@ -20,7 +20,7 @@ export default React.createClass({
 const FLOWERSET_1 = [
   {
     src: '../../assets/images/flowerset1-1.jpg',
-    width: 100,
+    width: 400,
     height: 400,
     aspectRatio: 1,
     lightboxImage:{

@@ -1,6 +1,18 @@
-#Gallery a {
+#Gallery {
+  div img {
+     opacity: 1;
+	   -webkit-transition: .2s ease-in-out;
+	   transition: .2s ease-in-out;
+    }
+
+a {
     padding: 0;
     text-decoration: none;
+  }
+}
+
+#Gallery div:hover img {
+    opacity: .5;
   }
 
 .gallery-page {
