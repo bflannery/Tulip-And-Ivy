@@ -4,6 +4,9 @@ import router from './router';
 import $ from 'jquery';
 
 
+
 let appContainer = document.getElementById('app-container');
+
+
 
 ReactDom.render(router, appContainer);
