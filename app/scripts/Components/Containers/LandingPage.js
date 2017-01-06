@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderNav from '../HeaderNav';
+import LandingPageNav from '../LandingPageNav';
 
 
 export default React.createClass({
@@ -9,7 +9,7 @@ export default React.createClass({
       <div className="landing-page-container">
         <img className="landing-logo" src='../../assets/images/tulipivylogo.jpg'/>
       </div>
-        <HeaderNav />
+        <LandingPageNav />
       </div>
     );
   }
