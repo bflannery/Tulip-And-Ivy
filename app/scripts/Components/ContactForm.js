@@ -20,10 +20,6 @@ export default React.createClass({
     const email= this.refs.email.value;
     const message= this.refs.message.value;
 
-    console.log(name);
-    console.log(email);
-    console.log(message);
-
     store.message.saveMessage(name, email, message);
     store.message.sendMessage(name, email, message);
 

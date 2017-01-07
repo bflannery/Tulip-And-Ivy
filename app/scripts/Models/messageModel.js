@@ -17,7 +17,7 @@ export default Backbone.Model.extend({
       message: message
     }, {
       success: () => {
-        console.log(name);
+        console.log('saved');
       },
       error: () => {
         console.log('failed');
@@ -33,9 +33,7 @@ export default Backbone.Model.extend({
           data: JSON.stringify({
             subject: 'Flower Message',
             bodyparts:{
-              name: name,
-              email: email,
-              message: message,
+              textmessage: name + ' : ' + email + ' : '+ message
             },
             to:['bflannery66@gmail.com']
           }),
@@ -43,6 +41,5 @@ export default Backbone.Model.extend({
               console.log('sent')
           }
       });
-
   }
   });
