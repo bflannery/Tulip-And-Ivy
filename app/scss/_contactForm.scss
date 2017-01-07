@@ -5,12 +5,16 @@
 .contact-form > input,
 .contact-form > textarea {
   display: block;
-  width: 240px;
-  padding: 4px 8px;
-  margin-bottom: 8px;
+  width: 13rem;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
   border-radius: 3px;
   border: 2px solid $color-lightgreen;
-  font-size: 14px;
+  font-size: 1rem;
+}
+
+.contact-form > input {
+  height: 2rem;
 }
 
 input[type="submit"] {
@@ -18,4 +22,53 @@ input[type="submit"] {
   background: transparent;
   text-align: center;
   display: inline-block;
+  width: 9rem;
+  padding: .5rem;
+  height: 3rem;
 }
+
+::-webkit-input-placeholder {
+   font-family: 'grandma';
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'grandma';
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-family: 'grandma';
+}
+
+:-ms-input-placeholder {
+    font-family: 'grandma';
+}
+
+@media(min-width: 600px) {
+  .contact-form > input,
+  .contact-form > textarea {
+    width: 22rem;
+  }
+
+  input[type="submit"] {
+    font-family: 'grandma';
+    background: transparent;
+    text-align: center;
+    display: inline-block;
+    width: 9rem;
+  }
+}
+
+  @media(min-width: 800px) {
+    .contact-form > input,
+    .contact-form > textarea {
+      width: 30rem;
+    }
+
+    input[type="submit"] {
+      font-family: 'grandma';
+      background: transparent;
+      text-align: center;
+      display: inline-block;
+      width: 9rem;
+    }
+  }

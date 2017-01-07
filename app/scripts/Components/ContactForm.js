@@ -8,7 +8,7 @@ export default React.createClass({
         <form onSubmit={this.handleSubmit} className="contact-form">
           <input type='text'  ref="name" placeholder='Name' />
           <input type='email'  ref="email" placeholder='Email' />
-          <textarea type='text'  ref="message" placeholder='Message' rows='4' cols='50'/>
+          <textarea type='text'  ref="message" placeholder='Message' rows='15' cols='75'/>
           <input type='submit' value='Send Message'/>
         </form>
       );
