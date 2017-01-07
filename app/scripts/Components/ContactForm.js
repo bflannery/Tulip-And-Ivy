@@ -1,0 +1,30 @@
+import React from 'react';
+
+export default React.createClass({
+  render() {
+    return (
+
+        <form onSubmit={this.handleSubmit} className="contact-form">
+          <input type='text'  ref="name" placeholder='Name' />
+          <input type='email'  ref="email" placeholder='Email' />
+          <textarea type='text'  ref="message" placeholder='Message' rows='4' cols='50'/>
+          <input type='submit' value='Send Message'/>
+        </form>
+      );
+  },
+
+  handleSubmit(e) {
+    e.preventDefault();
+    const name = this.refs.name.value;
+    const email= this.refs.email.value;
+    const message= this.refs.message.value;
+
+    console.log(name);
+    console.log(email);
+    console.log(message);
+
+    this.refs.name.value = '';
+    this.refs.email.value = '';
+    this.refs.message.value = '';
+  }
+});

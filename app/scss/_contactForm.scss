@@ -1,0 +1,21 @@
+.contact-form {
+  padding: 8px 24px;
+  display: inline-block;
+}
+.contact-form > input,
+.contact-form > textarea {
+  display: block;
+  width: 240px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 2px solid $color-lightgreen;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  font-family: 'grandma';
+  background: transparent;
+  text-align: center;
+  display: inline-block;
+}

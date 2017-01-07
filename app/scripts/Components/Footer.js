@@ -5,7 +5,7 @@ export default React.createClass({
   render() {
     return (
       <div className="footer">
-      <span> Share Your Flowers With Us </span>
+      <span> Follow Our Flowers </span>
       <FooterNav />
         <div className="copyright">
           <h5> 2016 Tulip & Ivy </h5>

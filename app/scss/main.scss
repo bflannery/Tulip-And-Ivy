@@ -5,3 +5,14 @@
 @import "footer";
 @import "landingPage";
 @import "landingNav";
+@import "contactForm";
+@import "contactPage";
+
+
+@font-face {
+  font-family: 'grandma';
+  src:
+    local('grandma'),
+    url('../assets/fonts/Grandma.ttf')
+    format('truetype');
+}

@@ -1,0 +1,19 @@
+.contact-page {
+  text-align: center;
+}
+
+.form-container {
+  text-align: center;
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 3rem 1rem;
+  width: 75%;
+  border: 1px solid $color-lightgreen;
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+}
