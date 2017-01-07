@@ -1,7 +1,8 @@
 import React from 'react';
-
+import store from '../store';
 export default React.createClass({
   render() {
+
     return (
 
         <form onSubmit={this.handleSubmit} className="contact-form">
@@ -22,6 +23,9 @@ export default React.createClass({
     console.log(name);
     console.log(email);
     console.log(message);
+
+    store.message.saveMessage(name, email, message);
+    store.message.sendMessage(name, email, message);
 
     this.refs.name.value = '';
     this.refs.email.value = '';

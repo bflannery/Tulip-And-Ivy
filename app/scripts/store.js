@@ -1,6 +1,8 @@
-import GalleryPhotos from './Collections/GalleryPhotos';
+import Messages from './Collections/Messages';
+import Message from './Models/messageModel';
 
 
 export default {
-  galleryPhotos: new GalleryPhotos()
-}
+  messages: new Messages(),
+  message: new Message()
+};
