@@ -1,23 +1,26 @@
-# BFPRODUCTIONSATX
+# Tulip & Ivy
 
-This is my web developer / photography portfolio website!
+Tulip & Ivy is an Austin based Floral arrangements company specializing in event, corporate, and personal florals. 
 
 ## Features 
-  - Current and Previous Projects with links to github and live site
-  - Link to blog about building my site
-  - Photo Galleries to previous work 
+  - Lightbox Gallery highlighting previous work 
+  - Linked instagram feed 
+  - Contact Form that sends email to owner 
   
 ## Under The Hood
   - HTML5
   - CSS3
   - SASS
+  - AJAX 
+  - Jquery 
   - Javascript
   - React.js
   - Backbone.js
-  - Underscore.js
+  - Backendless (BaaS)
   - ES2015
   - Babel 
   - Mocha/Chai Testing
+  - Instagram API 
 
 ## NPM 
 - A bare bones scaffolding for an SPA, without any libraries built in
