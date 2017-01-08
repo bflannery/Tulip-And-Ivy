@@ -14,22 +14,13 @@ export default React.createClass({
   },
 
   componentDidMount() {
+    store.instagrams.getPhotos();
 
-      store.instagram.getPhotos();
-    
-    store.instagram.fetch();
-    store.instagram.on('change update' , this.updateFeed);
   },
 
-  componentWillUnmount () {
-    store.instagram.off('change update', this.updateFeed);
-  },
-
-  updateFeed() {
-    this.setState({ instagram: store.instagram.toJSON()});
-  },
 
   render() {
+    console.log(this.state)
     return (
       <div className="about-page">
       <Header />
