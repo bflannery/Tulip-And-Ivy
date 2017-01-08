@@ -23,7 +23,7 @@
 
   .about-container {
     display: inline-block;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-right: 2rem;
     width: 50%;
   }
@@ -39,9 +39,12 @@
 @media(min-width: 800px) {
   .about-container {
   vertical-align: top;
+  margin-top: 3rem;
   }
 
   .avatar {
     margin: 1rem;
+    width: 20%;
   }
+
 }

@@ -1,8 +1,34 @@
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
+import store from '../../store';
 
 export default React.createClass({
+
+  getInitialState() {
+    return {
+      instagram: {
+        photos: []
+    }
+  };
+  },
+
+  componentDidMount() {
+
+      store.instagram.getPhotos();
+    
+    store.instagram.fetch();
+    store.instagram.on('change update' , this.updateFeed);
+  },
+
+  componentWillUnmount () {
+    store.instagram.off('change update', this.updateFeed);
+  },
+
+  updateFeed() {
+    this.setState({ instagram: store.instagram.toJSON()});
+  },
+
   render() {
     return (
       <div className="about-page">

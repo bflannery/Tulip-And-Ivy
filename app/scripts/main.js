@@ -10,12 +10,15 @@ let appContainer = document.getElementById('app-container');
 
 let container = document.getElementById('container');
 $(document).ajaxSend((evt, xhr, opts) => {
-    if (opts.url.includes('backendless')) {
-        console.log('interception backendless headers');
+    if (opts.url.includes('backendless') > -1) {
+        console.log(opts.type);
+
         xhr.setRequestHeader('application-id', config.appId);
         xhr.setRequestHeader('secret-key', config.secretKey);
         xhr.setRequestHeader('application-type', 'REST');
         xhr.setRequestHeader('user-token', window.localStorage.getItem('user-token'));
+      } else if(opts.url.indexOf('api.instagram.com') > -1) {
+        
       }
   });
 
