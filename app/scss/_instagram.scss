@@ -1,0 +1,66 @@
+.title-container {
+  text-align: center;
+}
+
+.instagram-container {
+  margin-top: 3rem;
+    h2 {
+      display: inline-block;
+    text-align: center;
+  }
+}
+
+.title-icon {
+  vertical-align: middle;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.instagram-feed {
+  text-align: center;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.instagram-post {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.image {
+  margin: auto;
+  width: 80%;
+  display: block;
+}
+
+.caption {
+  display: block;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.insta-button {
+  width: 8%;
+  vertical-align: middle;
+}
+
+.insta-count {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+
+@media(min-width: 800px) {
+  .instagram-post {
+      vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin: 2rem 0rem;
+  }
+  .instagram-feed {
+
+
+  }
+}

@@ -17,3 +17,11 @@
     font-size: 1.5rem;
   }
 }
+
+
+@media(min-width: 650px) {
+  .form-container {
+    width: 85%;
+    margin-top: 5rem;
+  }
+}
