@@ -8,7 +8,6 @@ import config from './config';
 
 let appContainer = document.getElementById('app-container');
 
-let container = document.getElementById('container');
 $(document).ajaxSend((evt, xhr, opts) => {
     if (opts.url.includes('backendless') > -1) {
         console.log(opts.type);
@@ -16,9 +15,9 @@ $(document).ajaxSend((evt, xhr, opts) => {
         xhr.setRequestHeader('application-id', config.appId);
         xhr.setRequestHeader('secret-key', config.secretKey);
         xhr.setRequestHeader('application-type', 'REST');
-        xhr.setRequestHeader('user-token', window.localStorage.getItem('user-token'));
-      } else if(opts.url.indexOf('api.instagram.com') > -1) {
         
+      } else if(opts.url.indexOf('api.instagram.com') > -1) {
+
       }
   });
 
