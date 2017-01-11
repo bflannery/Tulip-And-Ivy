@@ -1,9 +1,14 @@
 #Gallery {
-  div img {
+  div {
+    img {
      opacity: 1;
 	   -webkit-transition: .2s ease-in-out;
 	   transition: .2s ease-in-out;
+     object-fit: contain;
+     overflow: hidden;
     }
+
+  }
 
 a {
     padding: 0;
